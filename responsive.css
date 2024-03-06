@@ -1,0 +1,34 @@
+/* mobile */
+    @media (max-width: 740px) {
+    .s-col-full {
+        width: 100%;
+        padding: 16px;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .menu-mobile-btn{
+        display: block;
+    }  
+    #header {
+        overflow: hidden;
+    }    
+    #nav > li {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #000;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+}
